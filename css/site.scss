@@ -1,0 +1,45 @@
+---
+---
+
+@import "syntax";
+
+/* Breakpoints
+'sm': '640px'
+'md': '768px'
+'lg': '1024px'
+'xl': '1280px' */
+
+/* Define variables */
+
+:root {
+	--base-font-size: 100%;
+	--font-family-sans-serif: ui-sans-serif, 
+														system-ui, 
+														-system-ui, 
+														-apple-system,
+														BlinkMacSystemFont,
+														"Helvetica Neue",
+														Helvetica, Arial, 
+														sans-serif, 
+														"Apple Color Emoji";
+	--font-family-serif: Georgia, Cambria, 
+											"Times New Roman", 
+											Times, serif;
+
+}
+
+
+/* Site styles */
+
+body {
+	font-size: var(--base-font-size);
+	font-family: var(--font-family-serif);
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+	
+}
+
+
