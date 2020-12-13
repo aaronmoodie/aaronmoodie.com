@@ -3,7 +3,6 @@ layout: post
 title: Getting back into writing
 date: 2020-08-04 09:00:00 +10:00
 categories: blog
-permalink: /:categories/:title/
 ---
 
 I recently read two things that have helped me get back into writing.
@@ -16,7 +15,7 @@ The other was a [post by Frank Chimero](https://frankchimero.com/blog/2020/popey
 
 > “When the experienced don’t write, grifters step in, feign expertise, and sell it.”
 
-As simple as they are, these two sentences have helped me get through a bit of a mental block with my writing. 
+As simple as they are, these two sentences have helped me get through a bit of a mental block with my writing.
 
 I have a tendency to overthink things when I'm developing new skills, and reading Derek's post gave me a simple and achievable way to move past this. So far I've written something every day for the last three weeks, which is a personal record.
 

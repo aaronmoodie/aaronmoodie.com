@@ -1,28 +1,29 @@
 ---
 layout: default
 ---
-<article>
-	<header>
-		<h1>{{ page.title }}</h1>
-		<div>
-			<time>{{ page.date | date:  "%-d %B, %Y"  }}</time> • {{ page.content | reading_time }}
-		</div>
-	</header>
-	<section>
-		{{ content }}
-	</section>
-	
-	{% comment %}
-	<!-- Commentting out for now
-	May use algolia search? -->
-	<footer>
-		<div>
-			{% for tag in page.tags %}
-				<a href="/tag/#{{ tag | slugify }}">{{ tag }}</a>
-					<span>{{ tag | capitalize }}</span>
-			{% endfor %}
-		</div>		
-	</footer>
-	{% endcomment %}
 
+<article class="article-container block-container">
+  <!-- Header -->
+  <header class="article-header">
+    <h1>{{ page.title }}</h1>
+    <p class="metadata">
+      <time>{{ page.date | date: "%-d %B, %Y" }} • </time>
+      <span>{{ page.content | reading_time }}</span>
+    </p>
+  </header>
+
+  <!-- Content -->
+  <section class="article-content">{{ content }}</section>
+
+  {% unless page.tags == empty %}
+  <!-- Footer -->
+  <footer class="article-footer">
+    <p class="tags">
+      {% for tag in page.tags %}
+      <!-- <a href="/tag/{{ tag | slugify }}" class="tag">#{{ tag }}</a> -->
+      <span class="tag">#{{ tag }}</span>
+      {% endfor %}
+    </p>
+  </footer>
+  {% endunless %}
 </article>

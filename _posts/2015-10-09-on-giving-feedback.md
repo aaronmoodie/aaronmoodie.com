@@ -3,7 +3,6 @@ layout: post
 title: On Giving Feedback
 date: 2015-10-09 09:00:00 +10:00
 categories: blog
-permalink: /:categories/:title/
 ---
 
 Giving feedback is one of the easiest things to do, and one of the hardest to master. To give feedback, all you need is an opinion. To give _really good_ feedback you need to not only to understand the problem, but deliver you thoughts in a way that will be valued. No one likes to be criticised.

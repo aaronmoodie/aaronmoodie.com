@@ -4,7 +4,6 @@ title: Design is about everything
 date: 2012-06-10 09:00:00 +10:00
 tags: [design]
 categories: blog
-permalink: /:categories/:title/
 ---
 
 Not everything is about design, but design is about everything. This quote from Michael Bierut in Warren Berger’s Glimmer is one of the most thought provoking I’ve read in the last year. As designers, we spend our days looking at and solving problems, yet how often do we stop to look at problems beyond our own projects or interests? I’ve never really been one to go along with the whole ‘design can change the world’ mentality, but over the last year I’ve started to think about the application of design in our everyday lives, and how many of the products and systems that we use on a daily basis are poorly designed or completely broken.
@@ -31,4 +30,4 @@ Fortunately, we live in a time where sharing thoughts and ideas is as easy as se
 
 I still cringe whenever I read a headline proclaiming ‘design can change the world’. Ironically, everything that we interact with every day of our lives has been designed by someone at some point, so theoretically, it already has.
 
-*Initially published in [Desktop](http://desktopmag.com.au/blogs/design-is-about-everything) magazine #269*
+_Initially published in [Desktop](http://desktopmag.com.au/blogs/design-is-about-everything) magazine #269_

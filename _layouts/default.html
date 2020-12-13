@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{{ site.url }}/images/favicon.png">
+    <title>{{ site.title }}{% if page.title %} • {{ page.title }}{% endif %}</title>
+    <!-- Feed meta -->
     {% feed_meta %}
-    {% seo %}
+    
+    {% seo title=false %}
     <link rel="stylesheet" href="{{ '/css/site.css' | relative_url }}" />
   </head>
 
@@ -13,10 +17,8 @@
 
     {% include header.html %}
 
-    <main>
-      <div>
-        {{ content }}
-      </div>
+    <main class="main site-content-wrapper">
+      {{ content }}
     </main>
 
     {% include footer.html %}

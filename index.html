@@ -1,16 +1,20 @@
 ---
 layout: default
+title: "Home"
 ---
 
-<div>
+<div class="block-container">
   <section>
-    <h3>Hi there 👋</h3>
-    <p>
-      I'm Aaron Moodie, a Melbourne based Product Designer. I'm currently working at <a href="https://acloud.guru" class="link-underline">A Cloud Guru</a>, where we’re building a hands-on learning experience for cloud computing.
-    </p>
-    <p>
-      You can find me on the webs via <a href="https://twitter.com/aaronmoodie">Twitter</a>, <a href="https://instagram.com/aaronmoodie">Instagram</a>, <a href="https://github.com/aaronmoodie">Github</a> & <a href="https://dribbble.com/aaronmoodie">Dribbble</a>. Feel free to send me an <a href="mailto:hello@aaronmoodie.com">email</a> if you'd like to chat or grab a (virtual) coffee ☕
+    <h1 class="heading">Hey there!</h1>
+    <p class="text-intro">
+      I'm Aaron Moodie, a Melbourne based Product Designer currently focused on
+      DesignOps and Systems at <a href="https://acloud.guru">A Cloud Guru</a>.
+      Read more about what I’m doing <a href="/now">now</a>.
     </p>
   </section>
+  <section class="post-list">
+    <h3>Recent Posts</h3>
+    {% for post in site.posts limit:3 %} {% include post-excerpt.html %} {%
+    endfor %}
+  </section>
 </div>
-

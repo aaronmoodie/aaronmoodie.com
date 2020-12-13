@@ -1,0 +1,49 @@
+/* Breakpoints
+'sm': '640px'
+'md': '768px'
+'lg': '1024px'
+'xl': '1280px' */
+
+/* Define variables */
+
+:root {
+  /* Text sizes */
+  --text-size-xs: 0.75rem;
+  --text-size-sm: 0.875rem;
+  --text-size-base: 1rem;
+  --text-size-lg: 1.125rem; // 18px
+  --text-size-xl: 1.25rem; // 20px
+  --text-size-2xl: 1.5rem; // 24px - Subheading
+  --text-size-3xl: 1.75rem;
+  --text-size-4xl: 2rem;
+  --text-size-5xl: 2.25rem; // Heading
+  --text-size-6xl: 2.5rem;
+
+  --base-line-height: 1.6;
+
+  /* Font Families */
+  --font-family-sans-serif: ui-sans-serif, system-ui, -system-ui, -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif,
+    "Apple Color Emoji";
+  --font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-family-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+
+  /* Colors */
+
+  --lt-base-text-color: #1d1c1f;
+  --lt-bg-color: rgb(255, 255, 255);
+  --dt-base-text-color: rgb(255, 255, 255);
+  --dt-bg-color: #131413;
+
+  --grey-lightest: #f4f4f5;
+  --grey-lighter: #e4e4e7;
+  --grey-light: #d4d4d8;
+
+  --grey-dark: #52525B;
+  --grey-darker: #3f3f46;
+  --grey-darkest: #27272a;
+
+  --lt-link-color: rgb(68, 51, 255);
+  --dt-link-color: rgb(255, 10, 120);
+}

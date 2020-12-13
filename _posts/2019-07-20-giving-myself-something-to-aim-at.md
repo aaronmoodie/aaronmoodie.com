@@ -3,11 +3,10 @@ layout: post
 title: Giving Myself Something to Aim At
 date: 2019-07-20 09:00:00 +10:00
 categories: blog
-permalink: /:categories/:title/
 ---
 
-Setting myself goals has always been one of those things I've started doing but never been able to maintain. At the start of the new year there are always plenty of articles around setting goals or planning out your next 12 months. I normally take this time to write a list of lofty goals, which then end up somewhere forgotten and only serve as a reminder of all the things I didn't get around to doing. 
-For the last year however I've been trying a different approach. I started out with my initial list of goals, but have also set up a reminder to review them every couple of weeks. I take this time to reassess how I'm going with my goals, see if a certain goal needs amending or removing, or if I've got a new goal to add to the list. 
+Setting myself goals has always been one of those things I've started doing but never been able to maintain. At the start of the new year there are always plenty of articles around setting goals or planning out your next 12 months. I normally take this time to write a list of lofty goals, which then end up somewhere forgotten and only serve as a reminder of all the things I didn't get around to doing.
+For the last year however I've been trying a different approach. I started out with my initial list of goals, but have also set up a reminder to review them every couple of weeks. I take this time to reassess how I'm going with my goals, see if a certain goal needs amending or removing, or if I've got a new goal to add to the list.
 
 ![Screenshot](/images/goals-screenshot.png)
 

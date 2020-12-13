@@ -1,0 +1,6 @@
+[Settings]
+
+[context.production]
+  environment = { JEKYLL_ENV = 'production' }
+[build.environment]
+  TZ = 'Australia/Melbourne'

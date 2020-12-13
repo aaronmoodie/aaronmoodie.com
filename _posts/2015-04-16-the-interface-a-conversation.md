@@ -3,7 +3,6 @@ layout: post
 title: The Interface. A Conversation
 date: 2015-04-16 09:00:00 +10:00
 categories: blog
-permalink: /:categories/:title/
 ---
 
 Your phone right now probably contains anywhere from 500 to 5000 contacts. Some of these people you haven’t interacted with for months, possibly years, but you keep them in your phone on the off chance you may need to in to future. There is no additional cost to keeping them, after all. Your address book is digital and easily navigable via search. You probably already have your favorite contacts saved for easy access, so there is no real need to venture into that long list anyway.

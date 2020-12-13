@@ -4,7 +4,6 @@ title: Using Ruby to Compare Two Lists of Email Addresses
 date: 2020-02-07 09:00:00 +10:00
 tags: [scripting, ruby]
 categories: blog
-permalink: /:categories/:title/
 ---
 
 I recently joined the committee of my son's daycare and have been helping out on the communications side of things. One of my first tasks was to add the new parents to our mailing list and remove folks who had left. This seemed easy enough until I realised that I'd need to manually compare two lists of around 100 emails to figure out who was new and who had left ... 😅
@@ -21,14 +20,14 @@ def find_unique_emails(list_01, list_02)
 
     # Create an array of any matched emails
     matches = list_02.select { |line| line[/#{email.chomp}/i] }
-    
+
     if matches.empty?
       # if no matches, it's a unique email
       puts email
       unique_emails.push(email)
     end
   end
-  
+
   return unique_emails
 end
 ```
