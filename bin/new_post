@@ -17,7 +17,6 @@ layout: post
 title: #{post_title.gsub(/:/, "&#58;")}
 date: #{post_date} #{post_time}
 categories: blog
-permalink: /:categories/:title/
 ---
 FRONTMATTER
 
