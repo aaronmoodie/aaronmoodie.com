@@ -5,7 +5,7 @@ date: 2021-08-10 15:19:13 +10:00
 categories: blog
 ---
 
-When I was a kid my family upgraded our PC, installing a 100MB hard dive. We'd previously run everything off floppy discs, so to go to 100MB was mind blowing (DOOM ran _so_ fast). That was nearly 30 years ago. Today the hard drive in my phone has over a thousand times more capacity is and a fraction of the size.
+When I was a kid my family upgraded our PC, installing a 100MB hard dive. We'd previously run everything off floppy discs, so to go to 100MB was mind blowing (DOOM ran _so_ fast). That was nearly 30 years ago. Today the hard drive in my phone has over a thousand times more capacity and is a fraction of the size.
 
 The progress of digital technology has driven down the cost of computing so much that we barely consider it any more. Take any enterprise cloud storage provider like AWS or Google Cloud. The cost of renting computing power or storage on these platforms is fractions of a cent. Storage is so cheap that it's given away with online services like email and social networks. The initial promise of the computer was a paperless office, but we've far surpassed that to where businesses have no office and companies are run entirely from the cloud.
 
