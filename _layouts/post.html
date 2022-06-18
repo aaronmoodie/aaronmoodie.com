@@ -13,7 +13,15 @@ layout: default
   </header>
 
   <!-- Content -->
-  <section class="article-content">{{ content }}</section>
+  <section class="article-content">
+    {% if page.rss_only %}
+    <aside class="notice">
+      <tt>Hey! You've found an RSS only post 🤫</tt>
+    </aside>
+    {% endif %}
+    
+    {{ content }}
+  </section>
 
   {% unless page.tags == empty %}
   <!-- Footer -->

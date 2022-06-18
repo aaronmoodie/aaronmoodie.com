@@ -12,6 +12,9 @@ layout: default
     </p>
   </section>
   <section class="post-list">
-    {% for post in site.posts %} {% include post-excerpt.html %} {% endfor %}
+    {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" %}
+    {% for post in posts %} 
+      {% include post-excerpt.html %}
+    {% endfor %}
   </section>
 </section>
