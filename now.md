@@ -9,7 +9,7 @@ I live in Melbourne, Australia with my [talented wife](https://instagram.com/mar
 
 ### Interests
 
-Alongside my improving my practice and craft, I spend my time learning about topics I find exciting and fulfilling. These currently include:
+Alongside improving my practice and craft, I spend my time learning about topics I find exciting and fulfilling. These currently include:
 
 - Writing
 - Music
