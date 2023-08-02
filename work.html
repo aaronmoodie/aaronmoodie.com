@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		main {
+			height: 100vh;
+			scroll-snap-type: y mandatory;
+			overflow-y: scroll;
+			display: flex;
+			flex-direction: column;
+		}
+		
+		section {
+			min-height: 100vh;
+			scroll-snap-align: start;
+			scroll-snap-stop: always;
+			position: relative;
+		}
+		
+		h1 {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+			color: white;
+			width: 100%;
+			left: 0;
+			font-size: calc(1rem + 3vw);
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<section style="background-color: pink">
+			<h1>Section One</h1>
+		</section>
+		<section style="background-color: darkcyan">
+				<h1>Section Two</h1>
+		</section>
+		<section style="background-color: yellowgreen">
+				<h1>Section Three</h1>
+		</section>
+		<section style="background-color: orchid">
+				<h1>Section Four</h1>
+		</section>
+		<section style="background-color: salmon">
+				<h1>Section Five</h1>
+		</section>
+	</main>
+</body>
+</html>
