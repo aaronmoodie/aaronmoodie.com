@@ -13,6 +13,7 @@
 		
 		main {
 			height: 100vh;
+			height: calc(var(--vh, 1vh) * 100);
 			scroll-snap-type: y mandatory;
 			overflow-y: scroll;
 			display: flex;
@@ -20,7 +21,7 @@
 		}
 		
 		section {
-			min-height: 100vh;
+			min-height: 100%;
 			scroll-snap-align: start;
 			scroll-snap-stop: always;
 			position: relative;
@@ -28,6 +29,7 @@
 		
 		h1 {
 			position: absolute;
+			margin: 0px;
 			top: 50%;
 			transform: translateY(-50%);
 			text-align: center;
