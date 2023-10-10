@@ -40,10 +40,20 @@
 			color: black;
 			padding: 8px 24px;
 			border-radius: 100px;
+			position: relative;
 			text-decoration: none;
+			transition: all 200ms ease;
 			-webkit-backdrop-filter: saturate(180%) blur(20px);
 			backdrop-filter: saturate(180%) blur(20px);
 			background-color: rgba(255,255,255,0.7);
+		}
+		
+		@media screen and (max-width: 640px) {
+			nav a {
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
 		}
 		
 		
