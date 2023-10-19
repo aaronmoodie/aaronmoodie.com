@@ -12,23 +12,36 @@ body {
   font-size: var(--base-text-size);
   font-family: var(--font-family);
   line-height: var(--base-line-height);
-  color: var(--foreground-color);
-  background-color: var(--background-color);
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-rgb));
+  margin: var(--space-xl-2xl) auto;
+  padding: 0 6vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin: 6vw auto 16vw auto;
-  padding: 0 4vw;
+}
+
+header {
+  h1 {
+    margin-bottom: 0;
+  }
+  p {
+    margin: 0;
+  }
 }
 
 footer {
   max-width: var(--wrap-max-width);
-  // border-top: 1px solid var(--foreground-color);
-  padding-top: 2rem;
-  margin: 2rem auto;
+  padding-top: var(--space-xl-2xl);
+  margin: var(--space-xl-2xl) auto;
+  border-top: 1px solid rgba(var(--foreground-rgb), 0.1);
+  
+  p {
+    margin: 0;
+  }
 }
 
 a {
-  color: var(--foreground-color);
+  color: rgb(var(--foreground-rgb));
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,81 +60,54 @@ ul {
   padding-left: 1rem;
 }
 
-header {
-  h1 {
-    margin-bottom: 0;
-  }
-  p {
-    margin: 0;
-  }
-}
-
-
-/* Layout styles */
-
-.wrap {
-  max-width: var(--wrap-max-width);
-  margin: 0 auto;
-}
-
-
-/* Article styles */
-
-
-.metadata {
-  opacity: 75%;
-}
-
-/* For secret posts */
-.notice {
-  font-size: var(--text-size-base); 
-  margin-top: 1rem;
-}
-
 
 blockquote {
-  padding: 0 2rem;
+  padding: 0 var(--space-s-m);
   font-style: italic;
-  border-left: 2px solid var(--foreground-color);
+  border-left: 2px solid rgb(var(--foreground-rgb));
 }
 
 code {
   font-size: var(--text-size-sm);
 }
 
-.article-content figure.highlight,
-.article-content div.highlight {
+figure.highlight,
+div.highlight {
   padding: 0.5rem 1rem;
-  background: var(--background-color);
-  border: 1px solid var(--foreground-color);
+  background: rgb(var(--background-rgb));
+  border: 1px solid rgba(var(--foreground-rgb), 0.25);
   border-radius: 0.75rem;
   overflow-x: scroll;
   margin-top: 1rem;
 }
 
-.article-content figure.highlight code,
-.article-content div.highlight {
-  font-size: var(--text-size-xs);
+figure.highlight code,
+div.highlight {
+  font-size: var(--mono-text-size);
 }
 
+
+/* Classes */
+
+.wrap {
+  max-width: var(--wrap-max-width);
+  margin: 0 auto;
+}
+
+.metadata {
+  color: rgba(var(--foreground-rgb), 0.75)
+}
+
+.tags {
+  display: flex;
+  gap: 0.5rem;
+}
 
 .tag {
-  font-size: var(--text-size-sm);
-  color: var(--grey-dark);
-  margin-left: 0.5rem;
-}
-
-.tag:first-child {
-  margin: 0;
+  color: rgba(var(--foreground-rgb), 0.75)
 }
 
 
-@media screen and (min-width: 640px) {
-
-  .tag {
-    font-size: var(--text-size-base);
-  }
-}
 
 @media (prefers-color-scheme: dark) {
   html {

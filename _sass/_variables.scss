@@ -4,12 +4,16 @@
 'lg': '1024px'
 'xl': '1280px' */
 
-/* Define variables */
-
 :root {
   /* Text sizes */
   --base-text-size: clamp(1rem, 0.9565rem + 0.2174vw, 1.125rem);
+  --mono-text-size: 1rem;
   --base-line-height: 1.5;
+  
+  /* Spacing */
+  --space-s-m: clamp(1rem, 0.7609rem + 1.1957vw, 1.6875rem);
+  --space-xl-2xl: clamp(3rem, 2.4783rem + 2.6087vw, 4.5rem);
+  --space-2xl-3xl: clamp(4rem, 3.0435rem + 4.7826vw, 6.75rem);
 
   /* Font Families */
   --font-family: Inter V, ui-sans-serif, system-ui, -system-ui, -apple-system,
@@ -17,15 +21,16 @@
     "Apple Color Emoji";
 
   /* Colors */
-  --foreground-color: #3b3b3b;
-  --background-color: #FCFCFC;
+  --foreground-rgb: 59,59,59;
+  --background-rgb: 252,252,252;
   
+  /* Layout */
   --wrap-max-width: 690px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-   --foreground-color: #dae6f1;
-   --background-color: #212121;
+   --foreground-rgb: 206,206,206;
+   --background-rgb: 25,25,25;
   }
 }
