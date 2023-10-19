@@ -3,19 +3,33 @@ layout: default
 title: "Home"
 ---
 
-<div class="block-container">
-  <section>
-    <h1 class="heading">Hey there!</h1>
-    <p class="text-intro">
-      I'm Aaron Moodie, a Melbourne based Product Designer currently leading design at <a href="https://surreal.live">Surreal</a>.
-      Read more about what I’m doing <a href="/now">now</a>.
-    </p>
-  </section>
-  <section class="post-list">
-    <h3>Recent Posts</h3>
-    {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" %}
-    {% for post in posts limit:3 %}
-      {% include post-excerpt.html %} 
-    {% endfor %}
-  </section>
-</div>
+<section>
+  <header>
+    <h1>Aaron Moodie</h1>
+    <p>Product Designer</p>
+  </header>
+  <p>
+    I'm Aaron Moodie, a Melbourne based Product Designer currently leading design at <a href="https://surreal.live">Surreal</a>.
+    Read more about what I’m doing <a href="/now">now</a>.
+  </p>
+</section>
+
+<section>
+  <h2>Blog posts</h2>
+  {% assign posts = site.posts | where_exp: "item", "item.rss_only != true" %}
+  <ul>
+  {% for post in posts limit:3 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+  <p><a href="/blog">More</a> →</p>
+</section>
+
+
+<section>
+  <h2>Side projects</h2>
+  <ul>
+    <li><a href="/">Jammms - A music sharing community</a></li>
+    <li><a href="/">iOS currency converter</a></li>
+  </ul>
+</section>
