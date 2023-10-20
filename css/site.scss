@@ -5,6 +5,10 @@
 @import "fonts";
 @import "variables";
 
+* {
+  font-variation-settings: "slnt" 0;
+}
+
 html {
   font-size: 100%;
 }
@@ -56,14 +60,19 @@ p {
   margin: 1rem 0;
 }
 
+em {
+  font-variation-settings: "slnt" 10;
+  font-style: italic;
+}
+
 ul {
   margin: 1rem 0;
   padding-left: 1rem;
 }
 
-
 blockquote {
   padding: 0 var(--space-s-m);
+  font-variation-settings: "slnt" 10;
   font-style: italic;
   border-left: 2px solid rgb(var(--foreground-rgb));
 }
