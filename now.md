@@ -19,4 +19,4 @@ Alongside improving my practice and craft, I spend my time learning about topics
 - Mindfulness
 - Zettelkasten
 
-<p class="text-sm metadata">Updated 20 June 2023 from Melbourne, Australia 🌏</p>
+<p class="metadata">Updated 19 October 2023 from Melbourne, Australia</p>
