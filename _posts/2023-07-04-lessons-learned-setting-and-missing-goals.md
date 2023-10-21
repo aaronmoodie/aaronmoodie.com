@@ -6,7 +6,7 @@ categories: blog
 
 ---
 
-Two years ago I made a commitment to myself to post once a week. This is the third post in that time (secret post!). I could list a number of reasons as to why I missed this goal, but the reality is it wasn't a priority. Despite how much I love the idea of posting more often, it's something I've not made time for. And that's okay.
+Two years ago I made a commitment to myself to post once a week. This is the third post in that time. I could list a number of reasons as to why I missed this goal, but the reality is it wasn't a priority. Despite how much I love the idea of posting more often, it's something I've not made time for. And that's okay.
 
 In hindsight, posting once a week was an aggressive commitment. I'd previously posted 4-5 times a year. A more sensible and achievable goal would have been once a month. Despite this seeming like a failure, I'm actually quite happy with the outcome. I learn something about myself and how I like to write. This is a good thing.
 
