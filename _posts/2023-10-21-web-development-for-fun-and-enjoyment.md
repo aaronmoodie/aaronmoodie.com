@@ -20,4 +20,4 @@ The current site is built using Ruby on Rails. At the time, this was the tool I 
 
 You may have also noticed that this site has had a little refresh. I took some time this week to clean up the design and the code. There are more improvements to make, but I'm enjoying the direction this look and feel has taken—especially the aspects that make use of [Utopia](https://utopia.fyi) and fluid responsive design. 
 
-These are small projects, but they mark a shift in my thinking and my understanding of myself. I'd forgotten not only how much I've missed building for the web, but how much I've missed building *for the joy of building*. It's nice to be back here.
+These are small projects, but they mark a shift in my thinking and a better understanding of what makes me happy. I'd forgotten not only how much I enjoy building for the web, but how much I enjoy building *for the joy of building*.
