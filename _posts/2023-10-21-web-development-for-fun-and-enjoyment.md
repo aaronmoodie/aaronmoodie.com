@@ -6,7 +6,7 @@ tags: [craft, development]
 categories: blog
 ---
 
-A couple of weeks ago, I came to the realisation that building for the web is not only what I'm good at; it's what brings me joy. This may seem like a strange realisation, given that I design software for a living. However, my roles over the last few years have moved away from hands-on development as part of my day-to-day work.
+A couple of weeks ago, I came to the realisation that building for the web is not only what I'm good at; it's what brings me joy. This may seem like a strange realisation, given that I design software for a living. However, my roles over the last few years have, for the most part, moved away from hands-on development as part of my day-to-day work.
 
 I wanted to change this, so over the last few weeks I've picked up some half-completed projects and started some new ones.
 
