@@ -14,7 +14,7 @@ I wanted to change this, so over the last few weeks I've picked up some half-com
 
 Firstly, I designed and built three new static pages for the [Hanani](https://hanamirb.org) web framework, including a [new project landing page](https://github.com/hanami/hanami/pull/1358). As a long-time Ruby fan, this was an especially fun project to be involved with.
 
-I've also started rebuilding [my wife's website](https://maryannemoodie.com). It's been almost 7 years since we launched the current site, and while the design has held up, we thought a brand and content refresh were needed.
+I've also started rebuilding [my wife's website](https://maryannemoodie.com). It's been several years since we launched the current site, and while the design has held up, we thought a brand and content refresh were needed.
 
 The current site is built using Ruby on Rails. At the time, this was the tool I was most familiar with and the one that provided the outcome we needed. I'm rebuilding the new site using Next JS, both because it seems a better fit for the project and also to improve my Next JS knowledge.
 
