@@ -5,7 +5,7 @@ title: "What I’m doing now"
 
 This is a [now page](https://nownownow.com/about), inspired by [Derek Sivers](https://sive.rs/now). It's a snapshot of what's currently happening in my life.
 
-I live in Melbourne, Australia with my [talented wife](https://instagram.com/maryannemoodie) and our two boys. I work as a Principal Product Designer at [Surreal](http://surreal.live). When I'm not creating a better future for live experiences, I'm tinkering on a side project, working in the garden or reading a book.
+I live in Melbourne, Australia with my [talented wife](https://maryannemoodie.com) and our two boys. I work as a Principal Product Designer at [Surreal](http://surreal.live). When I'm not creating a better future for live experiences, I'm tinkering on a side project—usually music related, working in the garden or reading a book.
 
 ### Interests
 
@@ -16,7 +16,8 @@ Alongside improving my practice and craft, I spend my time learning about topics
 - Swift & SwiftUI
 - Type
 - Permaculture
+- Australian native gardens
 - Mindfulness
 - Zettelkasten
 
-<p class="metadata">Updated 19 October 2023 from Melbourne, Australia</p>
+<p class="metadata">Updated 23 October 2023 from Melbourne, Australia</p>
