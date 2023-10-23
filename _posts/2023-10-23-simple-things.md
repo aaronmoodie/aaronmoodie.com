@@ -8,7 +8,7 @@ categories: blog
 
 I like simple things. Simple recipes. Simple furniture. Simple architecture. 
 
-Simple doesn't mean basic, nor is it easy. Simple is hard work.
+Simple does not mean basic, nor is it easy. Simple is hard work.
 
 Simple is enough; no more or less than it should be. Simple does what is needed and does it well.
 
