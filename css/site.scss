@@ -111,14 +111,15 @@ div.highlight {
   display: inline-block;
   padding: 0.3rem 0.5rem ;
   border-radius: 4px;
-  background-color: rgb(var(--background-rgb));
+  background-color: rgba(var(--background-rgb), 0.6);
+  backdrop-filter: blur(60px);
   text-decoration: none;
   transition: all 200ms ease;
 }
 
 .home-link:hover {
   transform: scale(1.08);
-  background-color: #F5F5F5;
+  background-color: rgba(var(--foreground-rgb), 0.1);
 }
 
 .page-header {
@@ -147,8 +148,5 @@ div.highlight {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-  .home-link:hover {
-    background-color: rgb(40, 40, 40);
   }
 }
