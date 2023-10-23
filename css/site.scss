@@ -108,15 +108,16 @@ div.highlight {
 }
 
 .home-link {
-  display: inline-block;
-  padding: 0.3rem 0.5rem ;
-  border-radius: 4px;
   background-color: rgba(var(--background-rgb), 0.6);
   -webkit-backdrop-filter: blur(60px);
   -moz-backdrop-filter: blur(60px);
   -ms-backdrop-filter: blur(60px);
   -o-backdrop-filter: blur(60px);
   backdrop-filter: blur(60px);
+  display: inline-block;
+  padding: 0.3rem 0.5rem ;
+  border-radius: 4px;
+  z-index: 1;
   text-decoration: none;
   transition: all 200ms ease;
 }
