@@ -19,7 +19,7 @@ body {
   line-height: var(--base-line-height);
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
-  margin: var(--space-2xl-3xl) auto;
+  margin: var(--space-xl-2xl) auto;
   padding: 0 6vw;
   position: relative;
   -webkit-font-smoothing: antialiased;
@@ -61,7 +61,7 @@ em {
   font-style: italic;
 }
 
-ul {
+ul, ol {
   margin: 1rem 0;
   padding-left: 1.5rem;
 }
@@ -108,23 +108,7 @@ div.highlight {
 }
 
 .home-link {
-  background-color: rgba(var(--background-rgb), 0.6);
-  -webkit-backdrop-filter: blur(60px);
-  -moz-backdrop-filter: blur(60px);
-  -ms-backdrop-filter: blur(60px);
-  -o-backdrop-filter: blur(60px);
-  backdrop-filter: blur(60px);
-  display: inline-block;
-  padding: 0.3rem 0.5rem ;
-  border-radius: 4px;
-  z-index: 1;
-  text-decoration: none;
-  transition: all 200ms ease;
-}
-
-.home-link:hover {
-  transform: scale(1.08);
-  background-color: rgba(var(--foreground-rgb), 0.1);
+  margin-bottom: 2rem;
 }
 
 .page-header {
@@ -140,13 +124,24 @@ div.highlight {
   color: rgba(var(--foreground-rgb), 0.75)
 }
 
+.footnotes {
+  margin-top: 2rem;
+  color: rgba(var(--foreground-rgb), 0.75)
+}
+
+.reversefootnote {
+  // footnote link
+  color: rgba(var(--foreground-rgb), 0.75);
+  text-decoration: none;
+}
+
 .tags {
   display: flex;
   gap: 0.5rem;
 }
 
 .tag {
-  color: rgba(var(--foreground-rgb), 0.75)
+  color: rgba(var(--foreground-rgb), 0.5)
 }
 
 

@@ -1,4 +1,8 @@
 <footer>
+  {% unless page.url == "/" %}
+  <p class="home-link"><a href="/">Home</a>  ↩</p>
+  {% endunless %}
+  
   <p>Find me on the web</p>
   <p><a href="mailto:hello@aaronmoodie.com">Email</a>, <a href="/feed.xml">RSS</a>, <a href="https://mastodon.social/@aaronmoodie">Mastodon</a>, <a href="https://www.instagram.com/aaronmoodie">Instagram</a></p>
 </footer>
