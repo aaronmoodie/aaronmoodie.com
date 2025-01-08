@@ -11,7 +11,7 @@ I’m a passionate and thoughtful designer leader working to solve interesting p
 
 For the last 20 years I’ve worked across many aspects of the design industry, from running a graphic design studio and creating logotypes, to designing mobile apps and leading product design teams.
 
-Right now I’m at [Surreal](https://surreal.live) building a new platform to support live entertainment. I love working inclusively and strive to make the design process as collaborative as possible. The most valuable experiences in my process are the ones where I learn something new, and I’m always looking for opportunities to challenge my perception and gain a new perspective.
+Right now I’m at [Xero](https://xero.com) building finance tools to support small businesses and their accountants. I love working inclusively and strive to make the design process as collaborative as possible. The most valuable experiences in my process are the ones where I learn something new, and I’m always looking for opportunities to challenge my perception and gain a new perspective.
 
 A good day is one where I’m able to improve my understanding of design and evolve my process, alongside learning to be a better leader, friend and human.
 
