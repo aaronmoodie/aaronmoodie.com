@@ -44,3 +44,4 @@ exclude:
   - netlify.toml
   - bin
   - .gitignore
+  - todo.md
