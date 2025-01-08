@@ -75,7 +75,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bigdecimal (~> 3.1.0)
   jekyll (~> 4.3.4)
   jekyll-feed
   jekyll-seo-tag
