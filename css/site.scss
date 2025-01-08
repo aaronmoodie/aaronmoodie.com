@@ -1,9 +1,9 @@
 ---
 ---
 
-@import "reset";
-@import "fonts";
-@import "variables";
+@use "reset";
+@use "fonts";
+@use "variables";
 
 * {
   font-variation-settings: "slnt" 0;
