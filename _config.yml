@@ -41,7 +41,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - netlify.toml
   - bin
   - .gitignore
   - todo.md
