@@ -27,8 +27,7 @@ sass:
 title: "Aaron Moodie"
 email: "hello@aaronmoodie.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Aaron Moodie is a Melbourne based Product Designer currently
-  leading Design at Surreal.
+  Aaron Moodie is a Melbourne based product designer.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://aaronmoodie.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: "aaronmoodie"
@@ -42,5 +41,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - bin
+  - node_modules
   - .gitignore
   - todo.md
