@@ -20,7 +20,7 @@ plugins:
 permalink: /:categories/:title/
 
 sass:
-  style: compact
+  style: compressed
 
 # Site details
 
