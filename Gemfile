@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'csv'
-gem 'jekyll', '~> 4.3.4'
+gem 'bigdecimal'
+gem 'jekyll', '~> 4.4'
 gem 'logger'
 
 group :jekyll_plugins do
