@@ -10,4 +10,4 @@ end
 
 gem "webrick", "~> 1.7"
 
-ruby '3.3.4'
+ruby '3.4.4'
