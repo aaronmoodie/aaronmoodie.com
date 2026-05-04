@@ -1,100 +1,105 @@
 <!doctype html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script>
-		// let vh = window.innerHeight * 0.01;
-		// document.documentElement.style.setProperty('--vh', `${vh}px`);
-	</script>
-	<style>
-		
-		body {
-			font-family: "Inter V", -apple-system,BlinkMacSystemFont,Helvetica,Roboto,Arial,sans-serif;
-			line-height: 1.6;
-			margin: 0;
-			padding: 0;
-		}
-		
-		main {
-			position: relative;
-			height: 100vh;
-			height: calc(var(--vh, 1vh) * 100);
-			scroll-snap-type: y mandatory;
-			overflow-y: scroll;
-			display: flex;
-			flex-direction: column;
-		}
-		
-		nav {
-			position: fixed;
-			top: 0;
-			left: 0;
-			font-size: 1rem;
-			display: flex;
-			gap: 1rem;
-			z-index: 99;
-			-webkit-backdrop-filter: saturate(180%) blur(20px);
-			backdrop-filter: saturate(180%) blur(20px);
-			background-color: rgba(255,255,255,0.7);
-		}
-		
-		nav a {
-			color: black;
-			padding: 4px 12px;
-			position: relative;
-			text-decoration: none;
-		}
-		
-		@media screen and (max-width: 640px) {
-			nav a {
-				position: absolute;
-				left: 0px;
-				top: 0px;
-			}
-		}
-		
-		
-		section {
-			min-height: 100%;
-			scroll-snap-align: start;
-			scroll-snap-stop: always;
-			position: relative;
-		}
-		
-		h1 {
-			position: absolute;
-			margin: 0px;
-			top: 50%;
-			transform: translateY(-50%);
-			text-align: center;
-			color: white;
-			width: 100%;
-			left: 0;
-			font-size: calc(1rem + 3vw);
-		}
-	</style>
-</head>
-<body>
-	<main>
-		<nav>
-			<a href="/" class="">AM</a>
-		</nav>
-		<section style="background-color: pink">
-			<h1>Section One</h1>
-		</section>
-		<section style="background-color: darkcyan">
-				<h1>Section Two</h1>
-		</section>
-		<section style="background-color: yellowgreen">
-				<h1>Section Three</h1>
-		</section>
-		<section style="background-color: orchid">
-				<h1>Section Four</h1>
-		</section>
-		<section style="background-color: salmon">
-				<h1>Section Five</h1>
-		</section>
-	</main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // let vh = window.innerHeight * 0.01;
+      // document.documentElement.style.setProperty('--vh', `${vh}px`);
+    </script>
+    <style>
+      body {
+        font-family:
+          "Inter V",
+          -apple-system,
+          BlinkMacSystemFont,
+          Helvetica,
+          Roboto,
+          Arial,
+          sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+
+      main {
+        position: relative;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+        scroll-snap-type: y mandatory;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 1rem;
+        display: flex;
+        gap: 1rem;
+        z-index: 99;
+        -webkit-backdrop-filter: saturate(180%) blur(20px);
+        backdrop-filter: saturate(180%) blur(20px);
+        background-color: rgba(255, 255, 255, 0.7);
+      }
+
+      nav a {
+        color: black;
+        padding: 4px 12px;
+        position: relative;
+        text-decoration: none;
+      }
+
+      @media screen and (max-width: 640px) {
+        nav a {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+        }
+      }
+
+      section {
+        min-height: 100%;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        position: relative;
+      }
+
+      h1 {
+        position: absolute;
+        margin: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: white;
+        width: 100%;
+        left: 0;
+        font-size: calc(1rem + 3vw);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <nav>
+        <a href="/" class="">AM</a>
+      </nav>
+      <section style="background-color: pink">
+        <h1>Section One</h1>
+      </section>
+      <section style="background-color: darkcyan">
+        <h1>Section Two</h1>
+      </section>
+      <section style="background-color: yellowgreen">
+        <h1>Section Three</h1>
+      </section>
+      <section style="background-color: orchid">
+        <h1>Section Four</h1>
+      </section>
+      <section style="background-color: salmon">
+        <h1>Section Five</h1>
+      </section>
+    </main>
+  </body>
 </html>
