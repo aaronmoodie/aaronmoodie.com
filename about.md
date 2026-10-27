@@ -15,4 +15,4 @@ Right now I’m at [Xero](https://xero.com) building finance tools to support sm
 
 A good day is one where I’m able to improve my understanding of design and evolve my process, alongside learning to be a better leader, friend and human.
 
-I enjoy hearing from people, so please [send me an email](mailto:hello@aaronmoodie.com) and say hello.
+I enjoy hearing from people, so please [send me an email](mailto:webform@aaronmoodie.com) and say hello.
